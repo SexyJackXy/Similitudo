@@ -115,8 +115,25 @@ li a:hover {
 
 .miniContainer>h4{
     font-size: 2ch;
+    text-align: left;
 }
 
 .miniContainer2{
     margin-top: 12.5em ;
+    display: grid;
+}
+
+.iconPng{
+    color: white;
+    padding-top: 1.9em;
+    padding-right: 0.9em;
+    float: left;
+    height: 4ch;
+    width: 4ch;
+} 
+
+.gitRepo{
+    border-radius: 2em;
+    align-self: center;
+    justify-self: center;
 }
