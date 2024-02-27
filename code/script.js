@@ -14,14 +14,13 @@ function showMoreInfo() {
 
 }
 
-function test() {
-  var moreInfo = document.getElementById('moreInfo');
-  var openInfo = document.getElementById('openInfo');
+
+function test(element) {
+  var moreInfo = element.nextElementSibling; // Zugriff auf das nächste Geschwisterelement von jobs (das mehr Info-Element)
 
   if (moreInfo.style.display == '' || moreInfo.style.display == 'none') {
     moreInfo.style.display = 'block';
-  }
-  else {
+  } else {
     moreInfo.style.display = 'none';
   }
 }

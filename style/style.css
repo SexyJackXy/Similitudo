@@ -2,14 +2,7 @@
     font-family: "Space Grotesk", 'Roboto', sans-serif;
     color: Black;
     font-size: 2ch;
-    background: #000428;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(135deg, rgba(0, 78, 146, 1) 0%, rgba(0, 4, 40, 1) 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: no-repeat;
-    ;
+    background-color: #24262B;
 }
 
 body {
@@ -20,7 +13,7 @@ header {
     display: grid;
     height: fit-content;
     width: 100%;
-    background-color: transparent;
+    background-color: #004e92;
     /* box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2); */
 }
 
@@ -76,8 +69,10 @@ h6 {
 
 .nameWrapper {
     width: 100%;
-    margin-top: 12vw;
-    margin-bottom: 15vw;
+    padding-top: 12vw;
+    padding-bottom: 15vw;
+    background: rgb(0, 78, 146);
+    background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 43, 1) 100%);
 }
 
 .heading {
@@ -155,7 +150,7 @@ h6 {
     justify-self: center;
 }
 
-.gitRepo img{
+.gitRepo img {
     height: 25%;
 }
 
@@ -170,6 +165,7 @@ h6 {
 }
 
 .jobs {
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     background-color: #004e92;
@@ -180,19 +176,53 @@ h6 {
     margin-bottom: 0.25em;
 }
 
-.time{
+.time {
     display: inline-flex;
 }
 
-#moreInfo{
+.specificatpion {
+    display: inline-flex;
+}
+
+.specificatpion a {
+    text-decoration: none;
+    color: #acacac;
+    font-family: "Space Grotesk", 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 0.5em;
+    padding-right: 1em;
+}
+
+.specificatpion img{
+    margin-top: 0.5em;
+    margin-right: 0.166em;
+    height: 2ch;
+}
+
+.tags {
+    display: inline-flex;
+    padding-bottom: 0.5em;
+}
+
+.tag {
+    color: white;
+    text-align: center;
+    background-color: #0b7c4e;
+    border-radius: 2em;
+    padding: 0.25em 0.5em;
+    margin: 0.166em;
+    width: min-content;
+}
+
+#moreInfo {
+    text-align: left;
     display: none;
     position: relative;
-    background-color: #004e92;
+    background-color: #003459;
     margin: 0em auto;
     z-index: 1;
     width: 40%;
-    height: 200px;
-    padding:0 1em;
+    padding: 0 1em;
     border-radius: 0.5em;
 }
 
