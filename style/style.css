@@ -1,6 +1,6 @@
 :root {
     font-family: "Space Grotesk", 'Roboto', sans-serif;
-    color: Black;
+    color: white;
     font-size: 2ch;
     background-color: #24262B;
 }
@@ -51,8 +51,9 @@ li a {
     font-weight: 600;
 }
 
-li a:hover {
-    background-color: #111;
+.rightPart a:hover {
+    color: #24262B;
+    margin-top: -2;
 }
 
 p {
@@ -69,18 +70,20 @@ h6 {
 
 .nameWrapper {
     width: 100%;
-    padding-top: 12vw;
+    padding-top: 9vw;
     padding-bottom: 15vw;
     background: rgb(0, 78, 146);
     background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 43, 1) 100%);
 }
 
 .heading {
+    z-index: 1;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 6vw;
+    font-size: 10vw;
     text-transform: uppercase;
     margin: 0;
+    filter: drop-shadow(10px 12px 64px #000000);
 }
 
 .subHeading {
@@ -128,6 +131,7 @@ h6 {
     margin-top: 5em;
     display: grid;
     justify-items: center;
+    width: 50%;
 }
 
 .miniContainer2>h2 {
@@ -193,7 +197,7 @@ h6 {
     padding-right: 1em;
 }
 
-.specificatpion img{
+.specificatpion img {
     margin-top: 0.5em;
     margin-right: 0.166em;
     height: 2ch;
@@ -202,6 +206,7 @@ h6 {
 .tags {
     display: inline-flex;
     padding-bottom: 0.5em;
+    text-align: justify;
 }
 
 .tag {
@@ -211,7 +216,7 @@ h6 {
     border-radius: 2em;
     padding: 0.25em 0.5em;
     margin: 0.166em;
-    width: min-content;
+    width: fit-content;
 }
 
 #moreInfo {
