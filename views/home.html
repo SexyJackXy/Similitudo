@@ -13,14 +13,15 @@
 </head>
 <header>
     <nav>
-        <div class="leftPart">
-            <li><a style="float: left;font-weight: bolder;max-width: 10%;">timJachmann</a></li>
+        <div class="leftPart" id="home">
+            <a style="color: #02B2D7;">TimJachmann</a><a style="padding: 0; color: #0b7c4e;">.</a><a style="padding: 0;">_</a>
         </div>
         <div class="rightPart">
             <ul>
-                <li><a href="#">//HOME</a></li>
-                <li><a href="#">//SKILLS</a></li>
-                <li><a href="#">//PROJECTS</a></li>
+                <li><a href="#home">//HOME</a></li>
+                <li><a href="#skills">//SKILLS</a></li>
+                <li><a href="#work">//PROJECTS</a></li>
+                <li><a href="#experience">//EXPERIENCE</a></li>
             </ul>
         </div>
 
@@ -33,7 +34,7 @@
             <h1 class="heading">Tim <br>Jachmann</h1>
             <h4 class="subHeading">Administrator, Software & Frontend Developer</h4>
         </diV>
-        <div>
+        <div id="skills">
             <h2 class="subHeading" style="font-size: 3vw;">My Skills</h2>
         </div>
         <div class="multiContent">
@@ -60,14 +61,17 @@
                 </a>
             </div>
         </diV>
+        <div> 
+            <img src="../resources/Code.png" id="code">
+        </div>
         <div class="multiContent">
             <div class="miniContainer2">
-                <h2 class="subHeading" style="font-size: 3vw;">My Work</h2>
+                <h2 class="subHeading" style="font-size: 3vw;">Projects</h2>
                 <p>I have written and designed most of my projects in C#. Of course I also have the common languages
                     like JS, TS or Powershell in my skillset. Unfortunately, I have not yet found a suitable project
                     where I can put them to the test.</p>
             </div>
-            <div class="miniContainer2">
+            <div class="miniContainer2" id="work">
                 <div class="gitRepo">
                     <a href="https://github.com/SexyJackXy/Homunkulus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=Homunkulus&theme=graywhite"></a>
                 </div>
@@ -75,11 +79,11 @@
                     <a href="https://github.com/SexyJackXy/Simulcrum"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=Simulcrum&theme=graywhite"></a>
                 </div>
                 <div class="gitRepo">
-                    <a href="https://github.com/SexyJackXy/Simulcrum"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=portfolio&theme=graywhite"></a>
+                    <a href="https://github.com/SexyJackXy/portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=portfolio&theme=graywhite"></a>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="experience">
             <h2 class="subHeading" style="font-size: 3vw;">Experience</h2>
             <div class="jobs" onclick="test(this)"> 
                 <div class="tile">

@@ -1,8 +1,8 @@
 :root {
     font-family: "Space Grotesk", 'Roboto', sans-serif;
-    color: Black;
+    color: white;
     font-size: 2ch;
-    background-color: #24262B;
+    background-color: #242633;
 }
 
 body {
@@ -27,7 +27,7 @@ main {
 nav {
     padding-top: 2em;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -51,8 +51,8 @@ li a {
     font-weight: 600;
 }
 
-li a:hover {
-    background-color: #111;
+.rightPart a:hover {
+    color: #24262B;
 }
 
 p {
@@ -72,7 +72,7 @@ h6 {
     padding-top: 12vw;
     padding-bottom: 15vw;
     background: rgb(0, 78, 146);
-    background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 43, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 51, 1) 100%);
 }
 
 .heading {
@@ -91,16 +91,20 @@ h6 {
 }
 
 .leftPart {
-    position: fixed;
-    font-weight: 700;
-    font-size: 1.2vw;
+    position: absolute;
+    padding-top: 0;
+    font-weight: 600;
+    font-size: 4ch;
+    left: 2em;
 }
 
 .rightPart {
-    padding-left: 43%;
+    padding-right: auto;
+    justify-self: center;
 }
 
 .multiContent {
+    position: relative;
     font-size: 2ch;
     color: white;
     display: flex;
@@ -235,4 +239,11 @@ h6 {
     text-decoration: none;
     border: none;
     padding-left: 1em;
+}
+
+#code{
+    width: 20%;
+    opacity: 0.2;
+    bottom: -34vw;
+    left: 40vw;
 }
