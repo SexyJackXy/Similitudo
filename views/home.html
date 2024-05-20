@@ -6,15 +6,19 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../style/style.css" type="text/css">
+    <link rel="stylesheet" href="../style/codePenStyles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="../code/script.js"></script>
 </head>
 <header>
     <nav>
         <div class="leftPart" id="home">
-            <a style="color: #02B2D7;">TimJachmann</a><a style="padding: 0; color: #0b7c4e;">.</a><a style="padding: 0;">_</a>
+            <a style="color: #02B2D7;">TimJachmann</a><a style="padding: 0; color: #0b7c4e;">.</a><a
+                style="padding: 0;">_</a>
         </div>
         <div class="rightPart">
             <ul>
@@ -36,119 +40,135 @@
             <h4 class="subHeading">Administrator, Software & Frontend Developer</h4>
         </diV>
         <div id="skills">
-            <h2 class="subHeading" style="font-size: 3vw;">My Skills</h2>
+            <h2 class="subHeading">My Skills</h2>
         </div>
         <div class="multiContent">
             <div class="miniContainer">
                 <img class="iconPng" src="../resources/developent.png">
-                <h4>Software <br>Development</h4>
-                <a>
-                    Experienced in both functional and OOP Programming with C#, Python, JavaScript, TypeScript
-                </a>
+                <h3>Software <br>Development</h3>
+                <div class="skillText">
+                    <a>
+                        Experienced in both functional and OOP Programming with C#, Python, JavaScript, TypeScript
+                    </a>
+                </div>
+
             </div>
             <div class="miniContainer">
                 <img class="iconPng" src="../resources/js.png">
-                <h4>Frontend <br>Development</h4>
-                <a>
-                    Fascinated by frontend development. Over 4 years of experience with HTML, CSS and JS as well as
-                    working with React and NodeJS
-                </a>
+                <h3>Frontend <br>Development</h3>
+                <div class="skillText">
+                    <a>
+                        Fascinated by frontend development. Over 4 years of experience with HTML, CSS and JS as well as
+                        working with React and NodeJS
+                    </a>
+                </div>
             </div>
             <div class="miniContainer">
                 <img class="iconPng" src="../resources/server.png">
-                <h4>Server <br>Administration</h4>
-                <a>
-                    Trained IT specialist. Experience with Linux and Windows Server as well as network infrastructure
-                </a>
+                <h3>Server <br>Administration</h3>
+                <div class="skillText">
+                    <a>
+                        Trained IT specialist. Experience with Linux and Windows Server Automation as well as the
+                        configuration of network infrastructure
+                    </a>
+                </div>
             </div>
         </diV>
-        <div> 
+        <div>
             <img src="../resources/Code.png" id="code">
         </div>
         <div class="multiContent">
             <div class="miniContainer2">
-                <h2 class="subHeading" style="font-size: 3vw;">Projects</h2>
+                <h2 class="subHeading">My Projects</h2>
                 <p>I have written and designed most of my projects in C#. Of course I also have the common languages
                     like JS, TS or Powershell in my skillset. Unfortunately, I have not yet found a suitable project
                     where I can put them to the test.</p>
             </div>
             <div class="miniContainer2" id="work">
                 <div class="gitRepo">
-                    <a href="https://github.com/SexyJackXy/Homunkulus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=Homunkulus&theme=graywhite"></a>
+                    <a href="https://github.com/SexyJackXy/Homunkulus"><img
+                            src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=Homunkulus&theme=graywhite"></a>
                 </div>
                 <div class="gitRepo">
-                    <a href="https://github.com/SexyJackXy/Simulcrum"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=Simulcrum&theme=graywhite"></a>
+                    <a href="https://github.com/SexyJackXy/Simulcrum"><img
+                            src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=Simulcrum&theme=graywhite"></a>
                 </div>
                 <div class="gitRepo">
-                    <a href="https://github.com/SexyJackXy/portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=portfolio&theme=graywhite"></a>
+                    <a href="https://github.com/SexyJackXy/portfolio"><img
+                            src="https://github-readme-stats.vercel.app/api/pin/?username=SexyJackXy&repo=portfolio&theme=graywhite"></a>
                 </div>
             </div>
         </div>
         <div class="container" id="experience">
-            <h2 class="subHeading" style="font-size: 3vw;">Experience</h2>
-            <div class="jobs" onclick="test(this)"> 
-                <div class="tile">
-                    <p>Software Developer @ Poolarserver</p>
+            <div id="experience-inner">
+                <h2 class="subHeading">Experience</h2>
+                <div class="jobs" onclick="test(this)">
+                    <div class="tile">
+                        <p>Software Developer @ Poolarserver</p>
+                    </div>
+                    <div class="time">
+                        <p>2023 - Present</p>
+                        <p id="openInfo"">+</p>
+                    </div>
                 </div>
-                <div class="time">
-                    <p>2023 - Present</p>
-                    <p id="openInfo"">+</p>
+                <div id=" moreInfo">
+                        <div class="specificatpion">
+                            <img src="../resources/pin.png">
+                            <a>Stuttgart, Germany</a>
+                            <img src="../resources/link.png">
+                            <a href="https://poolarserver.com/">Poolarserver.com</a>
+                        </div>
+                        <div class="text">
+                            <p>Development, design and implementation of an ASP.Net-based website for a construction
+                                company</p>
+                        </div>
+                        <div class="tags">
+                            <p class="tag">C#</p>
+                            <p class="tag">React</p>
+                            <p class="tag">TypeScript</p>
+                            <p class="tag">JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="jobs" onclick="test(this)">
+                        <div class="tile">
+                            <p>Application Manager @ Fujitsu Technology Solutions</p>
+                        </div>
+                        <div class="time">
+                            <p>2022 - 2023</p>
+                            <p id="openInfo" onclick="test(this)">+</p>
+                        </div>
+                    </div>
+                    <div id="moreInfo">
+                        <div class="specificatpion">
+                            <img src="../resources/pin.png">
+                            <a>Remote (Neckarsulm, Germany)</a>
+                            <img src="../resources/link.png">
+                            <a href="https://www.fujitsu.com/de/services/">Fujitsu.com</a>
+                        </div>
+                        <div class="text">
+                            <p>Support of customer application on Windows server, creation of automation programs and
+                                monitor scripts, working with Robotic Process Automation (RPA)</p>
+                        </div>
+                        <div class="tags">
+                            <p class="tag">M365
+                            <p>
+                            <p class="tag">Powershell</p>
+                            <p class="tag">RPA</p>
+                            <p class="tag">Windows Server</p>
+                        </div>
+                    </div>
+                    <div class="jobs" onclick="test(this)">
+                        <div class="tile">
+                            <p>Apprenticeship @ Fujitsu TDS</p>
+                        </div>
+                        <div class="time">
+                            <p>2019 - 2022</p>
+                            <p id="openInfo" onclick="test(this)">+</p>
+                        </div>
+                    </div>
+                    <div id="moreInfo"></div>
                 </div>
             </div>
-            <div id="moreInfo">
-                <div class="specificatpion">
-                    <img src="../resources/pin.png">
-                    <a>Stuttgart, Germany</a>
-                    <img src="../resources/link.png">
-                    <a href="https://poolarserver.com/">Poolarserver.com</a>
-                </div>
-                <div class="text">
-                    <p>Development, design and implementation of an ASP.Net-based website for a construction company</p>
-                </div>
-                <div class="tags">
-                    <p class="tag">C#</p>
-                    <p class="tag">React</p>
-                    <p class="tag">TypeScript</p>
-                    <p class="tag">JavaScript</p>
-                </div>
-            </div>
-            <div class="jobs" onclick="test(this)"> 
-                <div class="tile">
-                    <p>Application Manager @ Fujitsu Technology Solutions</p>
-                </div>
-                <div class="time">
-                    <p>2022 - 2023</p>
-                    <p id="openInfo" onclick="test(this)">+</p>
-                </div>
-            </div>
-            <div id="moreInfo">
-                <div class="specificatpion">
-                    <img src="../resources/pin.png">
-                    <a>Remote (Neckarsulm, Germany)</a>
-                    <img src="../resources/link.png">
-                    <a href="https://www.fujitsu.com/de/services/">Fujitsu.com</a>
-                </div>
-                <div class="text">
-                    <p>Support of customer application on Windows server, creation of automation programs and monitor scripts, working with Robotic Process Automation (RPA)</p>
-                </div>
-                <div class="tags">
-                    <p class="tag">M365<p>
-                    <p class="tag">Powershell</p>
-                    <p class="tag">RPA</p>
-                    <p class="tag">Windows Server</p>
-                </div>
-            </div>
-            <div class="jobs" onclick="test(this)"> 
-                <div class="tile">
-                    <p>Apprenticeship @ Fujitsu TDS</p>
-                </div>
-                <div class="time">
-                    <p>2019 - 2022</p>
-                    <p id="openInfo" onclick="test(this)">+</p>
-                </div>
-            </div>
-            <div id="moreInfo"></div>
-        </div>
     </main>
 </body>
 <footer>
