@@ -1,5 +1,5 @@
 :root {
-    font-family: "Montserrat","Space Grotesk", 'Roboto', sans-serif;
+    font-family: "Montserrat", "Space Grotesk", 'Roboto', sans-serif;
     color: white;
     font-size: 2ch;
     background-color: #242633;
@@ -221,16 +221,16 @@ h6 {
     width: fit-content;
 }
 
-.skillText{
+.skillText {
     padding-left: 1.15em;
 }
 
-#experience{
+#experience {
     width: 100%;
     display: grid;
 }
 
-#experience-inner{
+#experience-inner {
     max-width: 870px;
     width: 100%;
     margin: auto;
@@ -262,7 +262,7 @@ h6 {
     padding-left: 1em;
 }
 
-#code{
+#code {
     width: 20%;
     opacity: 0.2;
     bottom: 40vw;
