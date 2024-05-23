@@ -102,73 +102,74 @@
         <div class="container" id="experience">
             <div id="experience-inner">
                 <h2 class="subHeading">Experience</h2>
-                <div class="jobs" onclick="test(this)">
+                <div class="jobs">
                     <div class="tile">
                         <p>Software Developer @ Poolarserver</p>
                     </div>
                     <div class="time">
                         <p>2023 - Present</p>
-                        <p id="openInfo"">+</p>
+                        <p id="openInfo" onclick="showMoreInfo(this)">+</p>
+                    </div>
+
+                </div>
+                <div id="moreInfo">
+                    <div class="specificatpion">
+                        <img src="../resources/pin.png">
+                        <a>Stuttgart, Germany</a>
+                        <img src="../resources/link.png">
+                        <a href="https://poolarserver.com/">Poolarserver.com</a>
+                    </div>
+                    <div class="text">
+                        <p>Development, design and implementation of an ASP.Net-based website for a construction
+                            company</p>
+                    </div>
+                    <div class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">React</p>
+                        <p class="tag">TypeScript</p>
+                        <p class="tag">JavaScript</p>
                     </div>
                 </div>
-                <div id=" moreInfo">
-                        <div class="specificatpion">
-                            <img src="../resources/pin.png">
-                            <a>Stuttgart, Germany</a>
-                            <img src="../resources/link.png">
-                            <a href="https://poolarserver.com/">Poolarserver.com</a>
-                        </div>
-                        <div class="text">
-                            <p>Development, design and implementation of an ASP.Net-based website for a construction
-                                company</p>
-                        </div>
-                        <div class="tags">
-                            <p class="tag">C#</p>
-                            <p class="tag">React</p>
-                            <p class="tag">TypeScript</p>
-                            <p class="tag">JavaScript</p>
-                        </div>
+                <div class="jobs" >
+                    <div class="tile">
+                        <p>Application Manager @ Fujitsu Technology Solutions</p>
                     </div>
-                    <div class="jobs" onclick="test(this)">
-                        <div class="tile">
-                            <p>Application Manager @ Fujitsu Technology Solutions</p>
-                        </div>
-                        <div class="time">
-                            <p>2022 - 2023</p>
-                            <p id="openInfo" onclick="test(this)">+</p>
-                        </div>
+                    <div class="time">
+                        <p>2022 - 2023</p>
+                        <p id="openInfo" onclick="showMoreInfo(this)">+</p>
                     </div>
-                    <div id="moreInfo">
-                        <div class="specificatpion">
-                            <img src="../resources/pin.png">
-                            <a>Remote (Neckarsulm, Germany)</a>
-                            <img src="../resources/link.png">
-                            <a href="https://www.fujitsu.com/de/services/">Fujitsu.com</a>
-                        </div>
-                        <div class="text">
-                            <p>Support of customer application on Windows server, creation of automation programs and
-                                monitor scripts, working with Robotic Process Automation (RPA)</p>
-                        </div>
-                        <div class="tags">
-                            <p class="tag">M365
-                            <p>
-                            <p class="tag">Powershell</p>
-                            <p class="tag">RPA</p>
-                            <p class="tag">Windows Server</p>
-                        </div>
-                    </div>
-                    <div class="jobs" onclick="test(this)">
-                        <div class="tile">
-                            <p>Apprenticeship @ Fujitsu TDS</p>
-                        </div>
-                        <div class="time">
-                            <p>2019 - 2022</p>
-                            <p id="openInfo" onclick="test(this)">+</p>
-                        </div>
-                    </div>
-                    <div id="moreInfo"></div>
                 </div>
+                <div id="moreInfo">
+                    <div class="specificatpion">
+                        <img src="../resources/pin.png">
+                        <a>Remote (Neckarsulm, Germany)</a>
+                        <img src="../resources/link.png">
+                        <a href="https://www.fujitsu.com/de/services/">Fujitsu.com</a>
+                    </div>
+                    <div class="text">
+                        <p>Support of customer application on Windows server, creation of automation programs and
+                            monitor scripts, working with Robotic Process Automation (RPA)</p>
+                    </div>
+                    <div class="tags">
+                        <p class="tag">M365
+                        <p>
+                        <p class="tag">Powershell</p>
+                        <p class="tag">RPA</p>
+                        <p class="tag">Windows Server</p>
+                    </div>
+                </div>
+                <div class="jobs">
+                    <div class="tile">
+                        <p>Apprenticeship @ Fujitsu TDS</p>
+                    </div>
+                    <div class="time">
+                        <p>2019 - 2022</p>
+                        <p id="openInfo" onclick="showMoreInfo(this)">+</p>
+                    </div>
+                </div>
+                <div id="moreInfo"></div>
             </div>
+        </div>
     </main>
 </body>
 <footer>
