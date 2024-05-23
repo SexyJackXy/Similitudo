@@ -60,6 +60,11 @@ p {
     color: white;
 }
 
+h4{
+    font-size: 22px !important;
+    font-weight: 400;
+}
+
 h6 {
     font-size: 2ch;
     color: white;
@@ -68,9 +73,10 @@ h6 {
 }
 
 .nameWrapper {
+    margin: 0 auto;
     width: 100%;
-    padding-top: 9vw;
-    padding-bottom: 15vw;
+    padding-top: 13vw;
+    padding-bottom: 13vw;
     background: rgb(0, 78, 146);
     background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 51, 1) 100%);
 }
@@ -117,7 +123,7 @@ h6 {
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 65%;
 }
 
 .multiContent>div {
