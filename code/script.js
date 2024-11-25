@@ -1,10 +1,21 @@
 function showMoreInfo(openInfo) {
-  var time = openInfo.parentNode;
-  var jobsDiv = time.parentNode;
+  const time = openInfo.parentNode;
+  const jobsDiv = time.parentNode;
+  var textContent = openInfo.textContent;
   const moreInfoDiv = jobsDiv.nextElementSibling;
+
   if (moreInfoDiv.style.display === 'block') {
     moreInfoDiv.style.display = 'none';
-} else {
+  } else {
     moreInfoDiv.style.display = 'block';
-}
+  }
+
+  console.log(textContent)
+  if (textContent == "+") {
+    openInfo.textContent = "-"
+  }
+  else if (textContent == "-") {
+    openInfo.textContent = "+"
+  }
+
 }
