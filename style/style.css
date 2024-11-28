@@ -48,7 +48,7 @@ li a {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.7ch;
-    font-family: "Roboto Mono",Sans-serif;
+    font-family: "Roboto Mono", Sans-serif;
 }
 
 li a:hover {
@@ -73,13 +73,21 @@ h6 {
 }
 
 footer {
+    font-size: 90%;
     margin-top: 7vw;
-    background-color: #000000;
-    display: grid;
+    background-color: #121319;
 }
 
 footer>p {
     margin: 0;
+}
+footer a{
+    vertical-align: middle;
+    padding-left: 0.25em;
+}
+
+footer img{
+    vertical-align: top;
 }
 
 .nameWrapper {
@@ -87,7 +95,7 @@ footer>p {
     width: 100%;
     padding-top: 13vw;
     padding-bottom: 13vw;
-    background: rgb(0, 78, 146);
+    background: #004E92;
     background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 51, 1) 100%);
 }
 
@@ -153,6 +161,7 @@ footer>p {
 }
 
 .miniContainer2 {
+    display: grid;
     margin: 5em auto 0;
     width: 100%;
 }
@@ -173,6 +182,7 @@ footer>p {
 
 .gitRepo img {
     float: right;
+    margin-bottom: 0.25em;
 }
 
 .container {
@@ -244,15 +254,21 @@ footer>p {
 }
 
 .impressum {
-    color: white;
+    display: grid;
+    width: 65%;
+    font-family: "Roboto Mono", Sans-serif;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* Automatisch anpassbare Spalten */
+    grid-gap: 0;
     justify-content: center;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    font-family: "Roboto Mono",Sans-serif;
 }
 
-.impressum a{
+.impressum a {
     color: white;
     text-decoration: none;
 }
@@ -297,7 +313,37 @@ footer>p {
     left: 50%;
 }
 
-#work{
+#work {
     width: 100%;
     float: right;
+}
+
+#email{
+    text-decoration: underline;
+    text-decoration-thickness: 0.325em;
+    text-underline-offset: -0.08em;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #004E92;
+}
+
+#email span:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.3em;
+    text-underline-offset: -1em;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #004E92;
+    cursor: pointer;
+}
+
+#left{
+    float: left;
+    max-width: 870px;
+    width: 100%;
+    text-align: left;
+}
+#right{
+    float: right;
+    max-width: 870px;
+    width: 100%;
+    text-align: left;
 }
