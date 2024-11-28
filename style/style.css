@@ -95,7 +95,6 @@ footer img{
     width: 100%;
     padding-top: 13vw;
     padding-bottom: 13vw;
-    background: #004E92;
     background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 51, 1) 100%);
 }
 
@@ -173,11 +172,11 @@ footer img{
 
 .iconPng {
     color: white;
-    padding-top: 1.9em;
+    padding-top: 1.1em;
     padding-right: 0.9em;
     float: left;
-    height: 2vw;
-    width: 2vw;
+    height: 60px;
+    padding-left: 20px;
 }
 
 .gitRepo img {
@@ -271,6 +270,10 @@ footer img{
 .impressum a {
     color: white;
     text-decoration: none;
+}
+
+.hamburgerMenu{
+    display: none;
 }
 
 #experience {
