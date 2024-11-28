@@ -1,0 +1,29 @@
+@media screen and (max-width: 1250px) {
+    .multiContent {
+        display: grid;
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column
+    }
+
+    .gitRepo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .jobs {
+        font-size: 1.4ch;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    :root{
+        font-size: 1.7ch;
+    }
+
+    .rightPart {
+        display: none;
+    }
+}
