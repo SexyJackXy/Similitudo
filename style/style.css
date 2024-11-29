@@ -81,12 +81,13 @@ footer {
 footer>p {
     margin: 0;
 }
-footer a{
+
+footer a {
     vertical-align: middle;
     padding-left: 0.25em;
 }
 
-footer img{
+footer img {
     vertical-align: top;
 }
 
@@ -272,9 +273,30 @@ footer img{
     text-decoration: none;
 }
 
-.hamburgerMenu{
+.hamburgerMenu {
     display: none;
 }
+
+.hamburgerMenu>img{
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    background: white;
+    z-index: 10;
+}
+
+.dropdownMenu a{
+    color: #000000;
+}
+
+.hamburgerMenu:hover .dropdownMenu{
+    display: block;
+  }
 
 #experience {
     margin-top: 5em;
@@ -284,7 +306,7 @@ footer img{
     text-align: center;
     justify-items: center;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 
 #moreInfo {
@@ -307,10 +329,13 @@ footer img{
 }
 
 #code {
-    width: 20%;
     opacity: 0.2;
-    bottom: 40vw;
-    left: 50%;
+    z-index: -1;
+    margin: -20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
 }
 
 #work {
@@ -318,7 +343,7 @@ footer img{
     float: right;
 }
 
-#email{
+#email {
     text-decoration: underline;
     text-decoration-thickness: 0.325em;
     text-underline-offset: -0.08em;
@@ -335,13 +360,14 @@ footer img{
     cursor: pointer;
 }
 
-#left{
+#left {
     float: left;
     max-width: 870px;
     width: 100%;
     text-align: left;
 }
-#right{
+
+#right {
     float: right;
     max-width: 870px;
     width: 100%;
