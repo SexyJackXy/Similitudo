@@ -12,7 +12,7 @@ body {
 header {
     height: fit-content;
     width: 100%;
-    background-color: #004e92;
+    background-color: #400258;
 }
 
 main {
@@ -96,7 +96,7 @@ footer img {
     width: 100%;
     padding-top: 13vw;
     padding-bottom: 13vw;
-    background: linear-gradient(180deg, rgba(0, 78, 146, 1) 0%, rgba(36, 38, 51, 1) 100%);
+    background: linear-gradient(180deg, rgba(64, 2, 88, 1) 0%, rgba(36, 38, 51, 1) 100%);
 }
 
 .heading {
@@ -200,7 +200,7 @@ footer img {
     font-size: 1.6ch;
     display: flex;
     justify-content: space-between;
-    background-color: #004e92;
+    background-color: #8803b9;
     padding: 0 1em;
     margin: 0 auto;
     width: 100%;
@@ -242,7 +242,7 @@ footer img {
 .tag {
     color: white;
     text-align: center;
-    background-color: #0b7c4e;
+    background-color: #5452c4;
     border-radius: 2em;
     padding: 0.25em 0.5em;
     margin: 0.166em;
@@ -315,7 +315,7 @@ footer img {
     text-decoration-thickness: 0.325em;
     text-underline-offset: -0.08em;
     text-decoration-skip-ink: none;
-    text-decoration-color: #004E92;
+    text-decoration-color: #5452c4;
 }
 
 .underline-orange {
@@ -342,7 +342,7 @@ footer img {
 #moreInfo {
     text-align: left;
     display: none;
-    background-color: #003459;
+    background-color: #400258;
     z-index: 1;
     width: 95%;
     padding: 0 1em;
@@ -378,7 +378,7 @@ footer img {
     text-decoration-thickness: 0.325em;
     text-underline-offset: -0.08em;
     text-decoration-skip-ink: none;
-    text-decoration-color: #004E92;
+    text-decoration-color: #8803b9;
 }
 
 #email span:hover {
@@ -386,7 +386,7 @@ footer img {
     text-decoration-thickness: 1.3em;
     text-underline-offset: -1em;
     text-decoration-skip-ink: none;
-    text-decoration-color: #004E92;
+    text-decoration-color: #8803b9;
     cursor: pointer;
 }
 
