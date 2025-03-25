@@ -1,6 +1,11 @@
 @media screen and (max-width: 1250px) {
     .multiContent {
-        display: grid;
+        display: flex;
+        width: 90%;
+    }
+
+    .miniContainer {
+        max-width: 33%;
     }
 
     #work {
